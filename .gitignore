@@ -1,0 +1,45 @@
+# ~/.gitignore
+# Based on .gitignore templates form GitHub
+# see https://github.com/github/gitignore/
+
+#######################################
+# Linux                               #
+#######################################
+
+*~
+
+# KDE directory preferences
+.directory
+
+#######################################
+# OS X                                #
+#######################################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+#######################################
+# Windows                             #
+#######################################
+
+# Windows Image File Caches
+Thumbs.db
+ehthumbs.db
+
+# Directory Config File
+Desktop.ini
+
+# Recycle Bin Used on File Shares
+$RECYCLE.BIN/
