@@ -6,6 +6,7 @@ body{
 #logo_div{
 	background-image: url('imgs/gray_granulate.png');
 	background-repeat: repeat;
+	background-position: center;
 	width: 50%;
 	height: 100%;
 	left: 0%;
@@ -16,6 +17,7 @@ body{
 #cysm_div{
 	background-image: url('imgs/gray_lighter_granulate.png');
 	background-repeat: repeat;
+	background-position: center;
 	width: 50%;
 	height: 95%;
 	left: 50%;
