@@ -50,7 +50,8 @@ img{
 	width: 50%;
 	height: 5%;
 	left: 50%;
-	bottom: 0%;
+	bottom: 0px;
+	padding-top: 1.5%;
 	position: absolute;
 	text-align: center;
 	font-family: Calibri;
