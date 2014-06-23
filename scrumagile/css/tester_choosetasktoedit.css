@@ -1,0 +1,59 @@
+button{
+		position: relative;
+		border: none;
+		background-color: #003a4f;
+		color: white;
+		width: 40%;
+		height: 100%;
+		margin: 5%;
+		left: 26%;
+		padding: 0;
+	}	
+
+@media (orientation: portrait){
+	#Form{
+		width: 75%;
+		height: 75%;
+		top: 15%;
+		position: absolute;
+		left: 12.5%;
+	}
+
+	#FormTable{
+		width: 100%;
+		position: relative;
+	}
+
+	#UserName{
+		width: 100%;
+		text-align: center;
+		position: fixed;
+		top: 16%;
+		color: #003a4f;
+		font-size: 1.5em;
+	}
+}
+
+@media (orientation: landscape){
+	#Form{
+		width: 85%;
+		height: 75%;
+		top: 25%;
+		position: absolute;
+		left: 25%;
+	}
+
+	#FormTable{
+		width: 100%;
+		position: relative;
+	}
+
+	#UserName{
+		width: 100%;
+		text-align: center;
+		position: fixed;
+		top: 16%;
+		color: #003a4f;
+		font-size: 1.5em;
+	}
+}

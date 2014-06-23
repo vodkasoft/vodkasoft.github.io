@@ -1,0 +1,46 @@
+
+#LogoDiv{
+	position: fixed;
+	height: 15%;
+	background-color: #003a4f;
+	width: 100%;
+	top: 30%;
+	text-align: center;
+}
+
+#CompleteLogo{
+	position: relative;
+	height: 80%;
+	top: 10%;
+}
+
+#SessionDiv{
+	position: fixed;
+	height: 10%;
+	width: 60%;
+	top: 50%;
+	left: 20%;
+	text-align: center;
+}
+
+@media (orientation: portrait){
+	#LogInBtn{
+		border: none;
+		background-color: #003a4f;
+		color: white;
+		width: 40%;
+		height: 50%;
+		position: relative;
+	}
+}
+
+@media (orientation: landscape){
+	#LogInBtn{
+		border: none;
+		background-color: #003a4f;
+		color: white;
+		width: 20%;
+		height: 50%;
+		position: relative;
+	}
+}

@@ -1,0 +1,107 @@
+@media (orientation: portrait){
+	#NavBar{
+		position: fixed;
+		top: 0%;
+		left: 0%;
+		height: 10%;
+		width: 100%;
+		text-align: center;
+		background-color: #003a4f;
+	}
+
+	#Logo{
+		position: relative;
+		height: 80%;
+		top: 10%;
+	}
+
+	#UserName{
+		width: 100%;
+		text-align: center;
+		position: fixed;
+		top: 14%;
+		color: #003a4f;
+		font-size: 1.5em;
+	}
+
+	#Content{
+		width: 85%;
+		height: 80%;
+		top: 25%;
+		position: fixed;
+		left: 7.5%;
+		text-align: center;
+	}
+
+	#ContentTable{
+		text-align: center;
+		position: relative;
+		width: 50%;
+		left: 25%;
+	}
+
+	button{
+		background-color: #003a4f;
+		width: 80%;
+		height: 100%;
+		border: none;
+		color: white;
+		margin: 8%;
+		padding: 0;
+		position: relative;
+	}
+}
+
+@media (orientation: landscape){
+	#NavBar{
+		position: fixed;
+		top: 0%;
+		left: 0%;
+		height: 10%;
+		width: 100%;
+		text-align: center;
+		background-color: #003a4f;
+	}
+
+	#Logo{
+		position: relative;
+		height: 80%;
+		top: 10%;
+	}
+
+	#UserName{
+		width: 100%;
+		text-align: center;
+		position: fixed;
+		top: 14%;
+		color: #003a4f;
+		font-size: 1.5em;
+	}
+
+	#Content{
+		width: 85%;
+		height: 80%;
+		top: 25%;
+		position: fixed;
+		left: 7.5%;
+		text-align: center;
+	}
+
+	#ContentTable{
+		text-align: center;
+		position: relative;
+		width: 20%;
+		left: 40%;
+	}
+
+	button{
+		background-color: #003a4f;
+		width: 80%;
+		height: 100%;
+		border: none;
+		color: white;
+		margin: 8%;
+		padding: 0;
+		position: relative;
+	}
+}

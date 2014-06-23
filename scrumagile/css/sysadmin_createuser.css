@@ -1,0 +1,53 @@
+@media (orientation: portrait){
+	#Form{
+		width: 85%;
+		height: 80%;
+		top: 25%;
+		position: fixed;
+		left: 7.5%;
+	}
+
+	#FormTable{
+		width: 100%;
+		position: relative;
+	}
+
+	#CreateUserBtn{
+		position: relative;
+		border: none;
+		background-color: #003a4f;
+		color: white;
+		width: 40%;
+		height: 100%;
+		margin: 5%;
+		left: 26%;
+		padding: 0;
+	}	
+}
+
+@media (orientation: landscape){
+	#Form{
+		width: 20%;
+		height: 80%;
+		top: 25%;
+		position: fixed;
+		left: 40%;
+	}
+
+	#FormTable{
+		width: 100%;
+		position: relative;
+	}
+
+	#CreateUserBtn{
+		position: relative;
+		border: none;
+		background-color: #003a4f;
+		color: white;
+		width: 40%;
+		height: 100%;
+		margin: 5%;
+		left: 26%;
+		padding: 0;
+	}	
+}

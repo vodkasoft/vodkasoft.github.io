@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<head>
+    <title>My Parse App</title>
+    <meta name="description" content="My Parse App">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" href="css/sysadmin_createuser.css">
+    <link rel="stylesheet" href="css/global.css">
+    <script type="text/javascript" src="js/error_codes.js"></script>
+    <script type="text/javascript" src="js/session.js"></script>
+    <script type="text/javascript" src="js/sysadmin_createuser.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/parse-1.2.18.min.js"></script>
+</head>
+<body onload="initialize();init_createuser();">
+    <div id="NavBar">
+        <img id="Logo" src="img/logo_complete.png"/>
+    </div>
+    <div id="PageTitle">
+        <span><i><b>sysadmin</b></i></span><br>
+        <span>Create user</span>
+    </div>
+    <div id="Form">
+        <table id="FormTable">
+            <tr style="background-color: #eeeeee;">
+                <td>User name:</td><td><input type="text" id="UsernameInput"></td>
+            </tr>
+            <tr>
+                <td>Name:</td><td><input type="text" id="NameInput"></td>
+            </tr>
+            <tr style="background-color: #eeeeee;">
+                <td>Lastname:</td><td><input type="text" id="LastNameInput"></td>
+            </tr>
+            <tr>
+                <td>Role:</td><td><select id="RoleSelect" style="width:100%">
+                    <option value="-">-</option>
+                    <option value="productowner">Product Owner</option>
+                    <option value="scrummaster">Scrum Master</option>
+                    <option value="developer">Developer</option>
+                    <option value="tester">Tester</option>
+                </select></td>
+            </tr>
+            <tr style="background-color: #eeeeee;">
+                <td>Project to assign:</td><td>
+                    <select id="ProjectToSelect" style="width:100%;">
+                        <option value = "-">-</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td><td><input type="password" id="PasswordInput"></td>
+            </tr>
+            <tr style="background-color: #eeeeee;">
+                <td>Type your password again:</td><td><input type="password" id="PasswordSecondInput"></td>
+            </tr>
+            <tr><td colspan="2"><br><br><button onclick="createUser();" id="CreateUserBtn">Create user</button></td></tr>
+        </table>
+    </div>
+</body>
+</html>
