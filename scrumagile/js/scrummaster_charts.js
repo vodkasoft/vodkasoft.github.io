@@ -76,11 +76,13 @@ function getInvested(pSize){
 	var _Invested = [];
 	var CURRENT = getEstimatedTop();
 	_Invested.push(CURRENT);
-	for(var i = 0; i < (pSize-1); i++){
+	for(var i = 0; i < window.TASKS.length; i++){
 		CURRENT = CURRENT - window.TASKS[i].get("investedDuration");
 		_Invested.push(CURRENT);
 	}
-	_Invested.push(0);
+	while(_Invested.length < pSize){
+		_Invested.push(0);
+	}
 	return _Invested;
 }
 
