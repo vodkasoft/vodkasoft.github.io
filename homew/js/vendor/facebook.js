@@ -76,3 +76,9 @@
         'Thanks for logging in, ' + response.name + '!';
     });
   }
+
+  function log_in(){
+    FB.login(function(response){
+
+    });
+  }
