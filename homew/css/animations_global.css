@@ -1,0 +1,68 @@
+body{
+	-webkit-animation: anim_color_a 30s linear infinite;
+	-moz-animation: anim_color_a 30s linear infinite;
+	animation: anim_color_a 30s linear infinite;
+}
+
+@keyframes anim_color_a{
+	0%{
+		background-color: #002548;
+	}
+	20%{
+		background-color: #007c9b;
+	}
+	40%{
+		background-color: #3a2369;
+	}
+	60%{
+		background-color: #078442;
+	}
+	80%{
+		background-color: #20441f;
+	}
+	100%{
+		background-color: #002548;
+	}
+}
+
+@-moz-keyframes anim_color_a{
+	0%{
+		background-color: #002548;
+	}
+	20%{
+		background-color: #007c9b;
+	}
+	40%{
+		background-color: #3a2369;
+	}
+	60%{
+		background-color: #078442;
+	}
+	80%{
+		background-color: #20441f;
+	}
+	100%{
+		background-color: #002548;
+	}
+}
+
+@-webkit-keyframes anim_color_a{
+	0%{
+		background-color: #002548;
+	}
+	20%{
+		background-color: #007c9b;
+	}
+	40%{
+		background-color: #3a2369;
+	}
+	60%{
+		background-color: #078442;
+	}
+	80%{
+		background-color: #20441f;
+	}
+	100%{
+		background-color: #002548;
+	}
+}
