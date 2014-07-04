@@ -78,7 +78,7 @@
   }
 
   function log_in(){
-    FB.login(function(response) {
-     console.log(response);
-   }, {scope: 'user_friends'});
+     FB.login(function(response) {
+   // handle the response
+    }, {scope: 'email,user_friends'});
   }
