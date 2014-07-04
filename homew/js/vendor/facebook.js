@@ -80,5 +80,5 @@
   function log_in(){
     FB.login(function(response){
 
-    });
+    },{scope:'user_friends','email'});
   }
