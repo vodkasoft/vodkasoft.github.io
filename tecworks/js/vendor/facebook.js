@@ -78,5 +78,11 @@
   }
 
   FB.login(function(response) {
-   // handle the response
-  }, {scope: 'public_profile,email'});
+    if (response.status === 'connected') {
+      alert("hola");
+    } else if (response.status === 'not_authorized') {
+      alert("hola");
+    } else {
+      alert("hola");
+    }
+  });
