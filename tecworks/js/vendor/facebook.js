@@ -30,10 +30,6 @@
     });
   }
 
-  FB.login(function(response) {
-   console.log(response);
- }, {scope: 'user_friends email'});
-
   window.fbAsyncInit = function() {
   FB.init({
     appId      : '255439164661872',
@@ -80,3 +76,7 @@
         'Thanks for logging in, ' + response.name + '!';
     });
   }
+
+  FB.login(function(response){
+  alert("hola");
+  });
