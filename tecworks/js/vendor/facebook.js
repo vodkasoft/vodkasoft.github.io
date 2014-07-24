@@ -13,11 +13,11 @@
       });
     } else if (response.status === 'not_authorized') {
       // The person is logged into Facebook, but not your app.
-      document.getElementById('celda').innerHTML = "<img style='width:50%' src='img/facebookloginbutton.png' onclick='checkLoginState()'/>";
+      document.getElementById('celda').innerHTML = "<img style='width:50%' src='img/facebookloginbutton.png' onclick='FB.login()'/>";
     } else {
       // The person is not logged into Facebook, so we're not sure if
       // they are logged into this app or not.
-      document.getElementById('celda').innerHTML = "<img style='width:50%' src='img/facebookloginbutton.png' onclick='checkLoginState()'/>";
+      document.getElementById('celda').innerHTML = "<img style='width:50%' src='img/facebookloginbutton.png' onclick='FB.login()'/>";
     }
   }
 
